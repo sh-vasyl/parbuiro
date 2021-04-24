@@ -1,0 +1,45 @@
+@font-face {
+	font-family: "CCR";
+	src: url("../fonts/Castrol/CastrolSansConReg/CastrolSansConReg.eot");
+	src: url("../fonts/Castrol/CastrolSansConReg/CastrolSansConReg.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/Castrol/CastrolSansConReg/CastrolSansConReg.woff") format("woff"),
+			 url("../fonts/Castrol/CastrolSansConReg/CastrolSansConReg.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "BB";
+	src: url("../fonts/Bender/BenderBlack/BenderBlack.eot");
+	src: url("../fonts/Bender/BenderBlack/BenderBlack.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/Bender/BenderBlack/BenderBlack.woff") format("woff"),
+			 url("../fonts/Bender/BenderBlack/BenderBlack.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "BR";
+	src: url("../fonts/Bender/BenderRegular/BenderRegular.eot");
+	src: url("../fonts/Bender/BenderRegular/BenderRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/Bender/BenderRegular/BenderRegular.woff") format("woff"),
+			 url("../fonts/Bender/BenderRegular/BenderRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "CL";
+	src: url("../fonts/Calibri/CalibriLight/CalibriLight.eot");
+	src: url("../fonts/Calibri/CalibriLight/CalibriLight.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/Calibri/CalibriLight/CalibriLight.woff") format("woff"),
+			 url("../fonts/Calibri/CalibriLight/CalibriLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "CB";
+	src: url("../fonts/Calibri/CalibriBold/CalibriBold.eot");
+	src: url("../fonts/Calibri/CalibriBold/CalibriBold.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/Calibri/CalibriBold/CalibriBold.woff") format("woff"),
+			 url("../fonts/Calibri/CalibriBold/CalibriBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
