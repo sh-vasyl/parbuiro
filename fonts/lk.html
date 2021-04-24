@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Parbuiro</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="libs/Magnific-Popup/magnific-popup.css">
+	<link rel="stylesheet" href="libs/slick/slick.css">
+	
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header header-2">
+	<div class="header__head">
+		<div class="h-head__top">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<a href="index.html" class="logo__link hidden-lg hidden-md hidden-sm"><img src="img/header/logo.png" alt="" class="logo__img"></a>
+						<button type="submit" class="toggle_mnu">
+							<span class="sandwich">
+								<span class="sw-topper"></span>
+								<span class="sw-bottom"></span>
+								<span class="sw-footer"></span>
+							</span>
+						</button>
+						<ul class="nav_small">
+							<li class="logo"><a href="index.html" class="logo__link"><img src="img/header/logo.png" alt="" class="logo__img"></a></li>
+							<li class="nav-small__item"><a href="#" class="nav-small__link">О нас</a></li>
+							<li class="nav-small__item"><a href="#" class="nav-small__link">Доставка и оплата</a></li>
+							<li class="nav-small__item"><a href="#" class="nav-small__link">Контакты</a></li>
+							<li class="nav-small__item nav-small__item_callback"><a href="#call-form" class="nav-small__link callback-link">Обратная связь</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<div class="h-head__content">
+							<a href="#" class="h-log-in h-log-in_active">Виталий</a><br>
+							<a href="#" class="h-basket h-basket_active">5</a><br>
+							<p href="#" class="h-phone">+ 7 916 300 16 05</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="h-head__bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<ul class="nav">
+							<li class="nav__item"><a href="#" class="nav__link">Новинки<span class="nav__line"></span></a></li>
+							<li class="nav__item"><a href="#" class="nav__link">Моды<span class="nav__line"></span></a></li>
+							<li class="nav__item"><a href="#" class="nav__link">наборы<span class="nav__line"></span></a></li>
+							<li class="nav__item"><a href="#atomiz" class="nav__link atomiz-link">атомайзеры<span class="nav__line"></span></a></li>
+							<li class="nav__item"><a href="#" class="nav__link">аксессуары<span class="nav__line"></span></a></li>
+							<li class="nav__item"><a href="#" class="nav__link">бренды</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- lk -->
+	<section class="lk">
+		<div class="container">
+			<!-- return -->
+			<div class="return">
+				<div class="row">
+					<div class="col-xs-12">
+						<a href="index.html" class="return__link">Вернуться</a>
+					</div>
+				</div>
+			</div>
+			<!-- return -->
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-10">
+					<div class="lk__content">
+						<p class="lk__title">Личный кабинет</p>
+						<span class="lk__icon"></span>
+						<p class="lk__name">Виталий</p>
+						<p class="lk__phone">Телефон:  +7 (926) 367 35 83</p>
+						<p class="lk__email">Email:  vvvitalii@mail.ru</p>
+						<a href="#" class="btn btn-lk btn-lk-edit">Редактировать</a>
+						<a href="#" class="btn btn-lk">Изменить пароль</a>
+						<div class="lk-exit">
+							<a href="#" class="lk-exit__link">Выйти</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+		</div>
+	</section>
+	<!-- lk -->
+</header>
+<!-- HEADER -->
+
+<!-- delivery -->
+<section class="delivery">
+	<p class="d-o__title">История заказов
+		<span class="lk__dates">
+			<span class="lk__date lk__date_active">2016</span>
+			<span class="lk__date">2017</span>
+		</span>
+	</p>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="table">
+					<div class="table__head clearfix">
+						<p class="w-42 table__title pl-1">№ заказа</p>
+						<p class="w-14 table__title text_center">Кол-во</p>
+						<p class="w-14 table__title text_center">Цена</p>
+						<p class="w-14 table__title text_center">Стоимость</p>
+						<p class="w-14 table__title text_center text_red">Повторить</p>
+					</div>
+					<p class="order-number">Заказ №00000235 от 03.12.2016</p>
+					<div class="table__body clearfix">
+						<div class="w-42 pl-1 table__item ti-img">
+							<span class="table-item__img">
+								<img src="img/basket/lk/1.png" alt="">
+							</span>
+							<p class="table-item__info">
+								<a href="#" class="table-item__name">League of scoundrels SCNDRL 2ND Edition</a>
+								<span class="table-item__brends">Бренд:  League of scoundrels     Цвет:  Черный</span>
+							</p>
+						</div>
+						<div class="w-14 table__item text_center">
+							<p class="table-item__count">1</p>
+						</div>
+						<div class="w-14 table__item text_center">
+							<p class="table-item__price">19 900 Р</p>
+						</div>
+						<div class="w-14 table__item text_center">
+							<p class="table-item__price-2">19 900 Р</p>
+						</div>
+						<div class="w-14 table__item text_center">
+							<span class="table-item__repeat"></span>
+						</div>
+					</div>
+					<div class="table__body clearfix">
+						<div class="w-42 pl-1 table__item ti-img">
+							<span class="table-item__img">
+								<img src="img/basket/lk/2.png" alt="">
+							</span>
+							<p class="table-item__info">
+								<a href="#" class="table-item__name">Arymi Gille RTA</a>
+								<span class="table-item__brends">Бренд: Arymi     Цвет:  Красный</span>
+							</p>
+						</div>
+						<div class="w-14 table__item text_center">
+							<p class="table-item__count">1</p>
+						</div>
+						<div class="w-14 table__item text_center">
+							<p class="table-item__price">19 900 Р</p>
+						</div>
+						<div class="w-14 table__item text_center">
+							<p class="table-item__price-2">19 900 Р</p>
+						</div>
+						<div class="w-14 table__item text_center">
+							<span class="table-item__repeat"></span>
+						</div>
+					</div>
+					<p class="order-number">Заказ №00000234 от 22.10.2016</p>
+					<div class="table__body clearfix">
+						<div class="w-42 pl-1 table__item ti-img">
+							<span class="table-item__img">
+								<img src="img/basket/lk/1.png" alt="">
+							</span>
+							<p class="table-item__info">
+								<a href="#" class="table-item__name">League of scoundrels SCNDRL 2ND Edition</a>
+								<span class="table-item__brends">Бренд:  League of scoundrels     Цвет:  Черный</span>
+							</p>
+						</div>
+						<div class="w-14 table__item text_center">
+							<p class="table-item__count">1</p>
+						</div>
+						<div class="w-14 table__item text_center">
+							<p class="table-item__price">19 900 Р</p>
+						</div>
+						<div class="w-14 table__item text_center">
+							<p class="table-item__price-2">19 900 Р</p>
+						</div>
+						<div class="w-14 table__item text_center">
+							<span class="table-item__repeat"></span>
+						</div>
+					</div>
+					<div class="table__body clearfix">
+						<div class="w-42 pl-1 table__item ti-img">
+							<span class="table-item__img">
+								<img src="img/basket/lk/2.png" alt="">
+							</span>
+							<p class="table-item__info">
+								<a href="#" class="table-item__name">Arymi Gille RTA</a>
+								<span class="table-item__brends">Бренд: Arymi     Цвет:  Красный</span>
+							</p>
+						</div>
+						<div class="w-14 table__item text_center">
+							<p class="table-item__count">1</p>
+						</div>
+						<div class="w-14 table__item text_center">
+							<p class="table-item__price">19 900 Р</p>
+						</div>
+						<div class="w-14 table__item text_center">
+							<p class="table-item__price-2">19 900 Р</p>
+						</div>
+						<div class="w-14 table__item text_center">
+							<span class="table-item__repeat"></span>
+						</div>
+					</div>
+					<div class="table__body clearfix">
+						<div class="w-42 pl-1 table__item ti-img">
+							<span class="table-item__img">
+								<img src="img/basket/lk/1.png" alt="">
+							</span>
+							<p class="table-item__info">
+								<a href="#" class="table-item__name">League of scoundrels SCNDRL 2ND Edition</a>
+								<span class="table-item__brends">Бренд:  League of scoundrels     Цвет:  Черный</span>
+							</p>
+						</div>
+						<div class="w-14 table__item text_center">
+							<p class="table-item__count">1</p>
+						</div>
+						<div class="w-14 table__item text_center">
+							<p class="table-item__price">19 900 Р</p>
+						</div>
+						<div class="w-14 table__item text_center">
+							<p class="table-item__price-2">19 900 Р</p>
+						</div>
+						<div class="w-14 table__item text_center">
+							<span class="table-item__repeat"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="text_center">
+					<a href="#" class="btn btn_trans_black btn_medium table-btn"><span>Перейти в каталог</span><span class="burger-icon_red"></span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- delivery -->
+
+<!-- advantages -->
+<section class="advantages sect_red">
+	<div class="bg-hand"></div>
+	<div class="container">
+		<div class="adv__desc adv__desc-2">
+			<div class="row">
+				<div class="col-xs-12">
+					<p class="adv-desc__title">В нашем вейпшопе вы можете попробовать все жидкости и протестировать <br>всю продукцию в деле! Приходи по адресу: </p>
+					<a href="#" class="btn btn_trans_white btn_medium btn-with"><span class="btn-loc"></span><span class="btn-dashed">новокузнецкая</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<div class="adv__slider">
+	<div class="adv__slide">
+		<a href="img/advantages/gallery/1.jpg" class="adv-slider__item" style="background-image: url('img/advantages/gallery/1.jpg');"></a>
+	</div>
+	<div class="adv__slide">
+		<a href="img/advantages/gallery/2.jpg" class="adv-slider__item" style="background-image: url('img/advantages/gallery/2.jpg');"></a>
+	</div>
+	<div class="adv__slide">
+		<a href="img/advantages/gallery/3.jpg" class="adv-slider__item" style="background-image: url('img/advantages/gallery/3.jpg');"></a>
+	</div>
+	<div class="adv__slide">
+		<a href="img/advantages/gallery/4.jpg" class="adv-slider__item" style="background-image: url('img/advantages/gallery/4.jpg');"></a>
+	</div>
+	<div class="adv__slide">
+		<a href="img/advantages/gallery/5.jpg" class="adv-slider__item" style="background-image: url('img/advantages/gallery/5.jpg');"></a>
+	</div>
+	<div class="adv__slide">
+		<a href="img/advantages/gallery/6.jpg" class="adv-slider__item" style="background-image: url('img/advantages/gallery/6.jpg');"></a>
+	</div>
+	<div class="adv__slide">
+		<a href="img/advantages/gallery/2.jpg" class="adv-slider__item" style="background-image: url('img/advantages/gallery/2.jpg');"></a>
+	</div>
+</div>
+<!-- advantages -->
+
+
+<!-- Footer -->
+<footer class="footer">
+	<div class="footer__head">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 col-sm-4">
+					<p class="f-head__answer"><span>ответим</span> на все <br>интересующие вопросы</p>
+				</div>
+				<div class="col-md-2 col-sm-4">
+					<div class="f-head__logo"><a href="index.html" class="f-head-logo__link"><img src="img/header/logo.png" alt="" class="f-head-logo__img"></a></div>
+				</div>
+				<div class="col-md-5 col-sm-4">
+					<div class="f-head__content">
+						<a href="#" class="h-basket">0</a><br>
+						<p href="#" class="h-phone">+ 7 916 300 16 05</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<ul class="f-nav_small">
+						<li class="nav-small__item"><a href="#" class="nav-small__link">О нас</a></li>
+						<li class="nav-small__item"><a href="#" class="nav-small__link">Доставка и оплата</a></li>
+						<li class="nav-small__item"><a href="#" class="nav-small__link">Контакты</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer__body">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<ul class="f-nav">
+						<li class="nav__item"><a href="#" class="nav__link">Новинки</a></li>
+						<li class="nav__item"><a href="#" class="nav__link">Моды</a></li>
+						<li class="nav__item"><a href="#" class="nav__link">жидкости</a></li>
+						<li class="nav__item"><a href="#" class="nav__link">наборы</a></li>
+						<li class="nav__item"><a href="#" class="nav__link">атомайзеры</a></li>
+						<li class="nav__item"><a href="#" class="nav__link">аксессуары</a></li>
+						<li class="nav__item"><a href="#" class="nav__link">бренды</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer__foot">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<p class="copyright">© 2016 «ПАРБЮРО»</p>
+				</div>
+				<div class="col-md-6">
+					<div class="soc">
+						<a href="#" class="soc-icon"></a>
+						<a href="#" class="soc-icon"></a>
+						<a href="#" class="soc-icon"></a>
+						<a href="#" class="soc-icon"></a>
+						<a href="#" class="soc-icon"></a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<p class="created-by">Разработка сайта <a href="#">— LIQIUM</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- Footer -->
+
+<!-- hidden -->
+<div class="hidden">
+	<form class="p-form p-call-form" id="call-form">
+		<p class="p-form__title">Обратная связь</p>
+		<p class="p-form__desc">Если у Вас что-то не получается — пожалуйста, напишите нам через форму <br>обратной связи, и наши менеджеры свяжутся с Вами в течение 15 минут</p>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="input__wrap">
+					<p class="r-label">Имя</p>
+					<input type="text" class="p-input" name="name">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="input__wrap">
+					<p class="r-label">E-mail</p>
+					<input type="text" class="p-input" name="email">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="input__wrap">
+					<p class="r-label">Сообщение</p>
+					<textarea class="p-area" name="comment"></textarea>
+				</div>
+			</div>
+		</div>
+		<a href="#call-thanks" class="send-mess btn btn__popup">Отправить</a>
+	</form>
+</div>
+<!-- hidden -->
+
+<!-- hidden -->
+<div class="hidden">
+	<form class="p-form p-atomizers" id="atomiz">
+		<p class="p-form__title">Обслуживание атомайзеров</p>
+		<p class="p-form__desc">Оставьте нам свои данные, и наши менеджеры свяжутся <br>с Вами в течение 2 минут</p>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="input__wrap">
+					<p class="r-label">Имя</p>
+					<input type="text" class="p-input" name="name">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="input__wrap">
+					<p class="r-label">Телефон</p>
+					<input type="text" class="p-input" name="phone">
+				</div>
+			</div>
+		</div>
+		<a href="#call-thanks" class="send-mess btn btn__popup">Жду звонка</a>
+	</form>
+</div>
+<!-- hidden -->
+
+<!-- hidden -->
+<div class="hidden">
+	<form class="p-form p-call-thanks" id="call-thanks">
+		<p class="p-form__title">Спасибо!</p>
+		<p class="p-form__desc">Ваше обращение успешно отправлено</p>
+		<p class="p-form__desc-2">Наш менеджер скоро свяжется с Вами</p>
+		<a href="#" class="btn btn__popup btn-ok-close">Ок</a>
+	</form>
+</div>
+<!-- hidden -->
+
+<div class="loader">
+	<div class="loader_inner"></div>
+</div>
+
+
+<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+<script src="libs/Magnific-Popup/jquery.magnific-popup.min.js"></script>
+<script src="libs/slick/slick.js"></script>
+
+<script src="js/common.js"></script>
+
+</body>
+</html>
